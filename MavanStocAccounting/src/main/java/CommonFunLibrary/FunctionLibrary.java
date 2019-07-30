@@ -61,6 +61,7 @@ return driver;
 		System.out.println("url==="+PropertyFileUtil.getValueForKey("URL"));
 		driver.manage().window().maximize();
 		driver.get(PropertyFileUtil.getValueForKey("URL"));
+		System.out.println("openApplication");
 		
 	}
 	
